@@ -1,0 +1,84 @@
+body {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  max-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+.main {
+  width: 88%;
+  height: 100vh;
+  margin-left: 12%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+/* Sidebar */
+.nav {
+  width: 12%;
+  height: 100%;
+  background-color: #9fff80;
+  position: fixed;
+}
+.nav img {
+width: 45%;
+height: auto;
+border-radius: 50%;
+display: block;
+margin: auto;
+border: 1vmin solid #333;
+transition: all 1s;
+}
+.nav img:hover {
+  transform: rotate(360deg) scale(1.2);
+}
+.nav h1 {
+  text-align: center;
+  font-size: 10.5vmin;
+  color: #333;
+  font-family: 'Noto Sans', sans-serif;
+  background-color: #9fff80;
+  margin: 0;
+}
+.b {
+  padding-top: 10px;
+}
+
+/* End of Sidebar */
+
+/* Buttons */
+
+section {
+  width: 26%;
+  padding: 1%;
+}
+.row1 {
+  margin-top: 5%;
+}
+section a {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  border: none;
+  border-bottom: 2px solid #9fff80;
+  background-color: #333;
+  font-family: 'Noto Sans', sans-serif;
+  color: #9fff80;
+  font-size: 2.5vmin;
+  margin-bottom: 10px;
+  transition: 0.2s;
+  transition-timing-function: ease-in;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #9fff80;
+  color: #333;
+}
